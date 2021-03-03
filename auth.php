@@ -10,7 +10,7 @@ if (isset($_GET['key'])) {
     ];
     // this sets post variables to shout at the api
 
-    $ch = curl_init('https://www.untone.tk/id/api/user/me.php'); // contact api
+    $ch = curl_init('https://www.untone.uk/id/api/user/me.php'); // contact api
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
@@ -24,5 +24,5 @@ if (isset($_GET['key'])) {
 ?>
 
 <script>
-window.location.href = "https://utauth_example.untone.tk/";
+window.location.href = "https://utauth_example.untone.uk/";
 </script>
