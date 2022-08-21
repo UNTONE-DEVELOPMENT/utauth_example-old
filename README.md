@@ -1,3 +1,6 @@
+# !! DO NOT USE THIS !!
+## this is very outdated. we will be working on a new repo soon.
+
 # utauth-example
 an example web app in PHP for handling utauth logins.
 
